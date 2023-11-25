@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .footer-area {
+            grid-template-areas:
+                "navigation"
+                "social-media"
+                "copy";
+        }
+    
+        .footer-area-md {
+            grid-template-areas:
+                "navigation social-media"
+                "navigation copy";
+        }
+}
