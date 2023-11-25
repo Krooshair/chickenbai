@@ -47,7 +47,7 @@ const Pedidos = ({ pedido, setPedido }) => {
                   X
                 </p>
                 <img
-                  src={`../images/${food.images}`}
+                  src={`images/${food.images}`}
                   alt="Comida"
                   className="rounded-md md:w-full md:max-w-lg"
                 />

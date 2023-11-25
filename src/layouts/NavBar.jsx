@@ -6,7 +6,7 @@ const NavBar = () => {
     <header className="w-full p-4 bg-red-500 overflow-hidden">
       <nav className="flex justify-between items-center md:px-8 md:py-4 lg:px-16">
         <div className="flex flex-col items-center md:flex-row md:gap-2">
-          <img src="/images/logo.webp" alt="Logo" className="w-20 lg:w-24" />
+          <img src="images/logo.webp" alt="Logo" className="w-20 lg:w-24" />
           <h2 className="text-md font-sans text-white font-semibold md:text-xl lg:text-2xl">
             Chicken
             <span className="text-xl font-serif text-green-500 md:text-3xl">

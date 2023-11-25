@@ -16,7 +16,7 @@ const Comida = ({comidas, handleClick}) => {
       <Layout key={item.id}>
         <section className="w-[90%] mx-auto my-12 flex flex-col gap-8 md:grid md:grid-cols-2 md:justify-items-center">
           <img
-            src={`../images/${item.images}`}
+            src={`images/${item.images}`}
             alt="Comida"
             className="rounded-md md:w-full md:max-w-lg"
           />
